@@ -1,7 +1,7 @@
 const player1 = 'orange';
 const player2 = 'blue';
-var currentPlayer = player1;
-var board;
+let currentPlayer = player1;
+let board = document.getElementById('board');
 
 window.onload = function() {
   setBoard();
@@ -10,7 +10,6 @@ window.onload = function() {
 function setBoard() {
   const rows = 6;
   const columns = 7;
-  board = document.getElementById('board');
 
   const table = document.createElement('table');
 

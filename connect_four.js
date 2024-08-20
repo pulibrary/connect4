@@ -1,5 +1,5 @@
-var player1 = 'orange';
-var player2 = 'blue';
+const player1 = 'orange';
+const player2 = 'blue';
 var currentPlayer = player1;
 var board;
 

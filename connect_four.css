@@ -15,3 +15,9 @@ th, td {
 h1 {
     text-align: center;
 }
+
+#message {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
